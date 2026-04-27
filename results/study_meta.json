@@ -1,0 +1,22 @@
+{
+  "n_trials": 60,
+  "n_completed": 60,
+  "n_pareto": 10,
+  "device": "cuda",
+  "seed": 42,
+  "objectives": [
+    "-accuracy (min)",
+    "inference_ms (min)",
+    "n_parameters (min)"
+  ],
+  "decision_variables": [
+    "n_conv_layers",
+    "channels_i",
+    "learning_rate",
+    "batch_size",
+    "n_epochs",
+    "dropout_rate",
+    "optimizer_type",
+    "input_resolution"
+  ]
+}
