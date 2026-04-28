@@ -1,0 +1,7 @@
+{
+  "n_trials": 60,
+  "n_completed": 60,
+  "n_pareto": 24,
+  "device": "cuda",
+  "seed": 42
+}
