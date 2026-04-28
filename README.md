@@ -12,18 +12,6 @@ The project features a direct comparison between two state-of-the-art Multi-Obje
 *   **NSGA-II (Evolutionary):** Uses non-dominated sorting and crowding distance to evolve a population of models.
 *   **MOTPE (Bayesian):** Multi-Objective Tree-structured Parzen Estimator, which builds a probabilistic surrogate model to intelligently sample the highly complex hyperparameter space.
 
-## Repository Structure
-```text
-MOML_Project/
-├── moo_nsga2.ipynb            # Jupyter notebook running the NSGA-II algorithm
-├── motpe/
-│   └── moo_motpe.ipynb        # Jupyter notebook running the MOTPE algorithm
-├── latest_report/             # Contains the final LaTeX report and trade-off analysis
-│   ├── report.tex
-│   └── figures/               # Contains 3D and 2D Pareto visualization plots
-├── requirements.txt           # Python dependencies
-└── README.md
-```
 
 ## Key Insights
 *   **Bayesian Sample Efficiency:** Within a strictly constrained budget of 60 trials, MOTPE significantly outperformed NSGA-II by finding a denser, more evenly spaced Pareto front with a 26% larger hypervolume.
